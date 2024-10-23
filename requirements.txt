@@ -1,24 +1,25 @@
+# requirements.txt
 # Core Dependencies
-playwright==1.30.0
-beautifulsoup4==4.9.3
-langchain==0.0.300
-openai==1.0.0
-fastapi==0.68.0
-uvicorn==0.15.0 #any uvicorn error - pip install fastapi uvicorn
-streamlit==1.2.0
-aiohttp==3.8.0
-pydantic==2.0.0
-redis==4.0.0
-loguru==0.5.3
-python-dotenv==1.0.0
+playwright>=1.41.2
+beautifulsoup4>=4.12.3
+langchain>=0.1.0
+openai>=1.3.7
+fastapi>=0.109.2
+uvicorn>=0.27.1
+streamlit>=1.31.1
+aiohttp>=3.9.3
+pydantic>=2.6.1
+redis>=5.0.1
+loguru>=0.7.2
+python-dotenv>=1.0.0
 
 # Testing Dependencies
-pytest==7.0.0
-pytest-asyncio==0.20.0
-pytest-cov==4.0.0
+pytest>=8.0.0
+pytest-asyncio>=0.23.5
+pytest-cov>=4.1.0
 
 # Development Dependencies
-black==22.0.0
-isort==5.0.0
-mypy==1.0.0
-pre-commit==2.17.0
+black>=24.1.1  # Updated from 22.0.0 due to Python compatibility
+isort>=5.13.2
+mypy>=1.8.0
+pre-commit>=3.6.0
