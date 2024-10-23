@@ -2,6 +2,8 @@
 
 Rufus is an AI-powered web scraping tool designed for extracting and structuring web content for RAG (Retrieval-Augmented Generation) systems. It provides intelligent content extraction, structured data output, and an easy-to-use interface.
 
+Check it out - https://rufuscs.streamlit.app/ 
+
 ## 🚀 Features
 
 - **AI-Powered Extraction**: Intelligent content identification and extraction
