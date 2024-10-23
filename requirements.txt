@@ -1,5 +1,6 @@
 # requirements.txt
 # Core Dependencies
+-e .
 playwright>=1.41.2
 beautifulsoup4>=4.12.3
 langchain>=0.1.0
